@@ -1,89 +1,44 @@
-Donation Webpage
+# Donation Webpage
 
-Overview
+## Overview
 
 This is a web-based donation platform that allows users to contribute to various causes seamlessly. The platform offers a user-friendly interface, secure payment processing, and real-time updates on donation impact.
 
-Features
+---
 
-User-friendly donation form
+## Features
 
-Secure payment gateway integration (e.g., Stripe, PayPal)
+- **User-friendly donation form**: Easy-to-use form for contributing to causes.
+- **Secure payment gateway integration**: Supports payments via Stripe, PayPal.
+- **Campaign listing with goal tracking**: Displays ongoing donation campaigns with real-time progress tracking.
+- **Real-time donation updates**: Keeps users informed about donation status and impact.
+- **Responsive design**: Optimized for both mobile and desktop devices.
 
-Campaign listing with goal tracking
+---
 
-Real-time donation updates
+## Tech Stack
 
-Responsive design for mobile and desktop
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: Firebase/Auth0
+- **Payment Integration**: Stripe/PayPal
 
-Tech Stack
+---
 
-Frontend: React, Next.js, Tailwind CSS
+## Installation
 
-Backend: Node.js, Express
+### Prerequisites
 
-Database: MongoDB
+Ensure the following are installed on your machine:
 
-Authentication: Firebase/Auth0
+- [Node.js](https://nodejs.org/) and npm
+- [MongoDB](https://www.mongodb.com/) (if using a database)
+- API keys for Stripe and/or PayPal payment gateways
 
-Payment Integration: Stripe/PayPal
+### Steps to Run Locally
 
-Installation
-
-Prerequisites
-
-Node.js and npm installed
-
-MongoDB setup (if using a database)
-
-API keys for payment gateway
-
-Steps to Run Locally
-
-Clone the repository:
-
-git clone https://github.com/yourusername/donation-webpage.git
-cd donation-webpage
-
-Install dependencies:
-
-npm install
-
-Set up environment variables in .env:
-
-NEXT_PUBLIC_STRIPE_KEY=your_stripe_key
-MONGO_URI=your_mongo_database_url
-
-Start the development server:
-
-npm run dev
-
-Open http://localhost:3000/ in your browser.
-
-Deployment
-
-Deploy on Vercel
-
-Install Vercel CLI:
-
-npm install -g vercel
-
-Deploy the project:
-
-vercel
-
-Follow the prompts to complete deployment.
-
-Deploy on Netlify
-
-Push your project to GitHub.
-
-Connect the repository to Netlify.
-
-Configure environment variables.
-
-Deploy with a single click.
-
-Contributing
-
-Feel free to submit issues and pull requests to improve the project.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/donation-webpage.git
+   cd donation-webpage
